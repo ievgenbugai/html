@@ -6,15 +6,34 @@
     <title>Form Sample</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Back to Home page </a>
-    </nav>
+    <header>
+        <h1>Hello page 2</h1>
+        <nav>
+            <a href="index.html">Back to Home page </a>
+        </nav>
+    </header>
 
-<main>
-    <form>
-        <input type="text">
-    </form>
-</main>
+    <main>
+        <form action="" method="POST">
+            <label>User Name:
+                <input type="text" placeholder="User Name" required>
+            </label>
+            <br>
+            <label>User Last name
+                <input type="text" placeholder="User Last Name" required>
+            </label>
+            <br>
+            Gender
+            <label>
+                <input type="radio" name="gender" value="male" >Male:
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female" >Female:
+            </label>
+            <br>
+            <input type="Submit">
+        </form>
+    </main>
 
 </body>
 </html>
